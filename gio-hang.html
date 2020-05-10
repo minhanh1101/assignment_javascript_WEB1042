@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ hàng</title>
+    <script src="https://kit.fontawesome.com/2299c24de0.js" crossorigin="anonymous"></script>
+    <script src="js/sanPham.js"></script>
+    <script src="js/gioHang.js"></script>
+    <link rel="stylesheet" href="css/gio-hang.css">
+</head>
+
+<body onload="hienThiGioHang()">
+    <header>
+        <div class="thanhtren">
+            <div class="thanh-tren">
+                <div class="thanh-1">
+                    <p>Hotline: 1900636510 - 0973 104 105</p>
+                </div>
+                <div class="thanh-2">
+                    <p>Email: <a href="#">sale@thegioiskinfood.com</a></p>
+                </div>
+                <div class="thanh-3">
+                    <a href="dang-nhap.html">Đăng nhập</a>
+                    <a href="dang-ki.html">Đăng kí</a>
+                </div>
+            </div>
+        </div>
+        <div class="thanhduoi">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.JPG"></a>
+            </div>
+            <div class="thanh-tim-kiem">
+                <input class="tim-kiem" type="text" placeholder="Bạn cần tìm gì?">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <div class="quay-lai">
+                <a href="index.html"><i class="fas fa-undo-alt"></i></a>
+            </div>
+        </div>
+        <div class="thanhmenu">
+            <nav id="nav-bar">
+                <ul id="menu">
+                    <li class="menu">
+                        <a href="danh-sach-san-pham.html" class="level1-title">ALL</a>
+                    </li>
+                    <li class="menu">
+                        <a href="#" class="level1-title">SALE</a>
+                    </li>
+                    <li class="menu">
+                        <a href="#" class="level1-title">BÁN CHẠY</a>
+                    </li>
+                    <li class="menu">
+                        <a href="them-moi-san-pham.html" class="level1-title">HÀNG MỚI VỀ</a>
+                    </li>
+                    <li class="menu">
+                        <a href="#" class="level1-title">CHĂM SÓC DA</a>
+                        <ul id="sub-menu">
+                            <li class="sub-menu">
+                                <a href="#">QUY TRÌNH DƯỠNG DA</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#">GIẢI PHÁP LÀN DA</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#">HAND - BODY - HAIR</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu">
+                        <a href="#" class="level1-title">TRANG ĐIỂM</a>
+                        <ul id="sub-menu">
+                            <li class="sub-menu">
+                                <a href="#">MẶT</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#">MẮT</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#">MÔI</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#">PHỤ KIỆN</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu">
+                        <a href="#" class="level1-title">THƯƠNG HIỆU</a>
+                        <ul id="sub-menu">
+                            <li class="sub-menu">
+                                <a href="#">INNISFREE</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#">MERZY</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#">ROMAND</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#">LANEIGE</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#">BLACK ROUGE</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#">I'M MEME</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#">G9SKIN</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#">MISSHA</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#">WELLDERMA</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#">IT'S SKIN</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu">
+                        <a href="tich-diem.html" class="level1-title">TÍCH ĐIỂM</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="slider">
+            <div class="slider-container">
+                <div class="my-slider fade">
+                    <img src="images/slideshow_1.jpg" style="width:100%">
+
+                </div>
+
+                <div class="my-slider fade">
+                    <img src="images/slideshow_2.jpg" style="width:100%">
+
+                </div>
+
+                <div class="my-slider fade">
+                    <img src="images/slideshow_3.jpg" style="width:100%">
+
+                </div>
+                <div class="my-slider fade">
+                    <img src="images/slideshow_4.jpg" style="width:100%">
+                </div>
+                <div class="my-slider fade">
+                    <img src="images/slideshow_5.jpg" style="width:100%">
+
+                </div>
+                <div class="my-slider fade">
+                    <img src="images/slideshow_6.jpg" style="width:100%">
+
+                </div>
+                <div class="my-slider fade">
+                    <img src="images/slideshow_7.jpg" style="width:100%">
+
+                </div>
+                <div class="my-slider fade">
+                    <img src="images/slideshow_8.jpg" style="width:100%">
+
+                </div>
+                <div class="my-slider fade">
+                    <img src="images/slideshow_9.jpg" style="width:100%">
+
+                </div>
+                <div class="my-slider fade">
+                    <img src="images/slideshow_10.jpg" style="width:100%">
+
+                </div>
+
+            </div>
+            <br>
+            <div class="current-slide">
+                <span class="dot" onclick="currentSlide(0)"></span>
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+                <span class="dot" onclick="currentSlide(7)"></span>
+                <span class="dot" onclick="currentSlide(8)"></span>
+                <span class="dot" onclick="currentSlide(9)"></span>
+            </div>
+            <script>
+                
+                var slideIndex;
+               
+                function showSlides() {
+                    var i;
+                    var slides = document.getElementsByClassName("my-slider");
+                    var dots = document.getElementsByClassName("dot");
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+
+                    slides[slideIndex].style.display = "block";
+                    dots[slideIndex].className += " active";
+                   
+                    slideIndex++;
+                    
+                    if (slideIndex > slides.length - 1) {
+                        slideIndex = 0
+                    }
+                    
+                    setTimeout(showSlides, 5000);
+                }
+                
+                showSlides(slideIndex = 0);
+
+                function currentSlide(n) {
+                    showSlides(slideIndex = n);
+                }
+            </script>
+        </div>
+    </header>
+    <section>
+        <div class="banner">
+            <img src="images/banner.JPG">
+        </div>
+        <div class="title">
+            <h1>Giỏ hàng</h1>
+        </div>
+        <div class="khungChuaGioHang">
+            <div id="gio-hang1" class="gio-hang1">
+
+            </div>
+        </div>
+        <script>
+            function chuyenDoiTuongItemGioHangSangHTML(itemGioHang) {
+
+                var sanPham = laySanPhamTheoId(itemGioHang.idSanPham);
+                var giaGoc = new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'VND' }).format(sanPham.giaGoc); 
+                var giaBan = new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'VND' }).format(sanPham.tinhGiaBan());            
+                var tongTien = new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'VND' }).format(itemGioHang.soLuong * sanPham.tinhGiaBan());
+                
+                var HTML = "";
+                HTML += "<div class='item-gio-hang'>";
+                HTML += "   <div class='hinhAnh'>";
+                HTML += "       <img src='" + sanPham.hinhAnh + "'>";
+                HTML += "   </div>";
+                HTML += "   <p class='ten'>" + sanPham.ten + "</p>";
+                HTML += "   <div class='gia'>";
+                HTML += "       <span class='giaGoc'>" + giaGoc + "</span>";
+                HTML += "       <span class='giaBan'>" + giaBan + "</span>";
+                HTML += "   </div>";
+                HTML += "   <input type='number' id='" + sanPham.id + "' class='soLuong' value='" + itemGioHang.soLuong + "' onchange='suaSoLuongSanPhamTrongGioHang(" + itemGioHang.idSanPham + ")'>";
+                HTML += "   <p class='tongTien'>" + tongTien + "</p>";
+                HTML += "   <div class='hanhDong'>";
+                HTML += "       <i class='far fa-trash-alt' aria-hidden='true' onclick='xoaSanPhamTrongGioHang(" + sanPham.id + ")'></i>";
+                HTML += "   </div>";
+                HTML += "</div>";
+                return HTML;
+            }
+
+            function chuyenDanhSachItemGioHangSangHTML(danhSachItemGioHang) {
+                var HTMLTong = "";
+                for (var i = 0; i < danhSachItemGioHang.length; i++) {
+                    var HTML = chuyenDoiTuongItemGioHangSangHTML(danhSachItemGioHang[i]);
+                    HTMLTong += HTML;
+                }
+                return HTMLTong;
+            }
+
+            function hienThiGioHang() {
+
+                var danhSachItemGioHang = layGioHangTuLocalStorage();
+
+                var HTML = chuyenDanhSachItemGioHangSangHTML(danhSachItemGioHang);
+
+                var nodeGioHang = document.getElementById("gio-hang1");
+                nodeGioHang.innerHTML = HTML;
+            }
+
+        </script>
+    </section>
+    <footer>
+        <div class="inf-1">
+            <div class="inf1">
+                <div class="icon-inf">
+                    <i class="fas fa-phone-alt"></i>
+                </div>
+                <p class="detail-inf">1900 636 510 - 0973 104 105</p>
+            </div>
+            <div class="inf1">
+                <div class="icon-inf">
+                    <i class="fas fa-pen-nib"></i>
+                </div>
+                <p class="detail-inf">Hỗ Trợ Đơn Hàng: </p>
+                <p class="detail-inf1">thegioiskinfood@gmail.com</p>
+            </div>
+            <div class="inf1">
+                <div class="icon-inf">
+                    <i class="fas fa-user"></i>
+                </div>
+                <p class="detail-inf">Liên Hệ Hợp Tác: </p>
+                <p class="detail-inf1">sales@thegioiskinfood.com</p>
+            </div>
+            <div class="inf1">
+                <div class="icon-inf">
+                    <i class="fas fa-store"></i>
+                </div>
+                <p class="detail-inf">100 Hoàng Hoa Thám, P.12, Q. Tân Bình</p>
+            </div>
+        </div>
+        <div class="inf-2">
+            <div class="chinhsach">
+                <li><a href="#">LIÊN HỆ</a></li>
+                <li><a href="#">CHÍNH SÁCH GIAO HÀNG</a></li>
+                <li><a href="#">CHÍNH SÁCH BẢO MẬT</a></li>
+                <li><a href="#">CHÍNH SÁCH ĐỔI TRẢ</a></li>
+                <li><a href="#">ĐIỀU KHOẢN MUA BÁN</a></li>
+            </div>
+            <div class="dk-bantin">
+                <h4>Đăng kí nhận bản tin</h4>
+                <div class="line-dk">
+                    <input class="first" type="text" placeholder="Nhập số điện thoại của bạn">
+                    <button type="submit" class="last">ĐĂNG KÍ</button>
+                </div>
+            </div>
+        </div>
+        <div class="inf-3">
+            <p class="copyright">Thế Giới SkinFood Copyright © 2013</p>
+        </div>
+    </footer>
+</body>
+
+</html>

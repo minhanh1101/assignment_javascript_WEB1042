@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+    <script src="https://kit.fontawesome.com/2299c24de0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/dang-ki.css">
+</head>
+<body>
+    <header>
+        <div class="thanhtren">
+            <div class="thanh-tren">
+                <div class="thanh-1">
+                    <p>Hotline: 1900636510 - 0973 104 105</p>
+                </div>
+                <div class="thanh-2">
+                    <p>Email: <a href="#">sale@thegioiskinfood.com</a></p>
+                </div>
+                <div class="thanh-3">
+                    <a href="dang-nhap.html">Đăng nhập</a>
+                    <a href="dang-ki.html">Đăng kí</a>
+                </div>
+            </div>
+        </div>
+        <div class="thanhduoi">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.JPG"></a>
+            </div>
+            <div class="thanh-tim-kiem">
+                <input class="tim-kiem" type="text" placeholder="Bạn cần tìm gì?">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <div class="gio-hang">
+                <a href="gio-hang.html"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </div>
+        <div class="thanhmenu">
+            <nav id="nav-bar">
+                <ul id="menu">
+                    <li class="menu">
+                        <a href="danh-sach-san-pham.html" class="level1-title">ALL</a>
+                    </li>
+                    <li class="menu">
+                        <a href="#" class="level1-title">SALE</a>
+                    </li>
+                    <li class="menu">
+                        <a href="#" class="level1-title">BÁN CHẠY</a>
+                    </li>
+                    <li class="menu">
+                        <a href="them-moi-san-pham.html" class="level1-title">HÀNG MỚI VỀ</a>
+                    </li>
+                    <li class="menu">
+                        <a href="#" class="level1-title">CHĂM SÓC DA</a>
+                        <ul id="sub-menu">
+                            <li class="sub-menu">
+                                <a href="#">QUY TRÌNH DƯỠNG DA</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#">GIẢI PHÁP LÀN DA</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#">HAND - BODY - HAIR</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu">
+                        <a href="#" class="level1-title">TRANG ĐIỂM</a>
+                        <ul id="sub-menu">
+                            <li class="sub-menu">
+                                <a href="#">MẶT</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#">MẮT</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#">MÔI</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#">PHỤ KIỆN</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu">
+                        <a href="#" class="level1-title">THƯƠNG HIỆU</a>
+                        <ul id="sub-menu">
+                            <li class="sub-menu">
+                                <a href="#">INNISFREE</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#">MERZY</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#">ROMAND</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#">LANEIGE</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#">BLACK ROUGE</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#">I'M MEME</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#">G9SKIN</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#">MISSHA</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#">WELLDERMA</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#">IT'S SKIN</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu">
+                        <a href="tich-diem.html" class="level1-title">TÍCH ĐIỂM</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div class="banner">
+            <img src="images/banner.JPG">
+        </div>
+        <div class="form">
+            <h2>Tạo tài khoản</h2>
+            <label class="lb" for="hoTen">Họ tên</label>
+            <input class="ip" type="text" id="hoTen">
+            <!--node thông báo lỗi cho họ tên-->
+            <label id="hienThiLoiHoTen" for="hoTen" class="error"></label>
+    
+            <label class="lb" for="soDienThoai">Số điện thoại</label>
+            <input class="ip" type="number" id="soDienThoai">
+            <!--node thông báo lỗi cho số điện thoại-->
+            <label id="hienThiLoiSoDienThoai" for="soDienThoai" class="error"></label>
+    
+            <label class="lb" for="email">Email</label>
+            <input class="ip" type="email" id="email">
+            <!--Node thông báo lỗi cho địa chỉ-->
+            <label id="hienThiLoiEmail" for="email" class="error"></label>
+    
+            <label class="lb" for="matKhau">Mật khẩu</label>
+            <input class="ip" type="password" id="matKhau">
+            <!--Node thông báo lỗi cho mật khẩu-->
+            <label id="hienThiLoiMatKhau" for="matKhau" class="error"></label>
+
+            <label class="lb" for="matKhau1">Nhập lại mật khẩu</label>
+            <input class="ip" type="password" id="matKhau1">
+            <!--Node thông báo lỗi cho mật khẩu-->
+            <label id="hienThiLoiMatKhau1" for="matKhau1" class="error"></label>
+    
+            <button class="btn-login" onclick="onClickDangNhap()">Đăng kí</button>
+
+            <a class="help" href="#"><p>Quay về</p></a>
+    
+            <script>
+                function onClickDangNhap() {
+                    if (formDangNhapHopLe() == true) {
+                        //Thực hiện đăng nhập
+                    }
+                }
+    
+                function formDangNhapHopLe() {
+                    var hopLe = true;
+                    
+                    var nodeHoTen = document.getElementById("hoTen");
+                    var nodeSoDienThoai = document.getElementById("soDienThoai");
+                    var nodeEmail = document.getElementById("email");
+                    var nodeMatKhau = document.getElementById("matKhau");
+                    var nodeMatKhau1 = document.getElementById("matKhau1");
+    
+                    var hoTen = nodeHoTen.value;
+                    var soDienThoai = nodeSoDienThoai.value;
+                    var email = nodeEmail.value;
+                    var matKhau = nodeMatKhau.value;
+                    var matKhau1 = nodeMatKhau1.value;
+    
+                    var nodeHienThiLoiHoTen = document.getElementById("hienThiLoiHoTen");
+                    var nodeHienThiLoiSoDienThoai = document.getElementById("hienThiLoiSoDienThoai");
+                    var nodeHienThiLoiEmail = document.getElementById("hienThiLoiEmail");
+                    var nodeHienThiLoiMatKhau = document.getElementById("hienThiLoiMatKhau");
+                    var nodeHienThiLoiMatKhau1 = document.getElementById("hienThiLoiMatKhau1");
+    
+                    nodeHienThiLoiHoTen.innerHTML = "";
+                    nodeHienThiLoiSoDienThoai.innerHTML = "";
+                    nodeHienThiLoiEmail.innerHTML = "";
+                    nodeHienThiLoiMatKhau.innerHTML = "";
+                    nodeHienThiLoiMatKhau1.innerHTML = "";
+                    
+                    if (hoTen == null || hoTen.length <= 0){
+                        nodeHienThiLoiHoTen.innerHTML = "Bạn chưa nhập họ tên!";
+                        hopLe = false;
+                    }
+                    if (soDienThoai == null || soDienThoai.length <= 0){
+                        nodeHienThiLoiSoDienThoai.innerHTML = "Bạn chưa nhập số điện thoại!";
+                        hopLe = false;
+                    }
+                    if (email == null || email.length <= 0){
+                        nodeHienThiLoiEmail.innerHTML = "Bạn chưa nhập email!";
+                        hopLe = false;
+                    }
+                    if(matKhau == null || matKhau.length <= 0){
+                        nodeHienThiLoiMatKhau.innerHTML = "Bạn chưa nhập mật khẩu!";
+                        hopLe = false;
+                    }
+                    if(matKhau1 == null || matKhau1.length <= 0){
+                        nodeHienThiLoiMatKhau1.innerHTML = "Bạn chưa nhập mật khẩu!";
+                        hopLe = false;
+                    }
+                    return hopLe;
+                }
+            </script>
+        </div>
+    </section>
+    <footer>
+        <div class="inf-1">
+            <div class="inf1">
+                <div class="icon-inf">
+                    <i class="fas fa-phone-alt"></i>
+                </div>
+                <p class="detail-inf">1900 636 510 - 0973 104 105</p>
+            </div>
+            <div class="inf1">
+                <div class="icon-inf">
+                    <i class="fas fa-pen-nib"></i>
+                </div>
+                <p class="detail-inf">Hỗ Trợ Đơn Hàng: </p>
+                <p class="detail-inf1">thegioiskinfood@gmail.com</p>
+            </div>
+            <div class="inf1">
+                <div class="icon-inf">
+                    <i class="fas fa-user"></i>
+                </div>
+                <p class="detail-inf">Liên Hệ Hợp Tác: </p>
+                <p class="detail-inf1">sales@thegioiskinfood.com</p>
+            </div>
+            <div class="inf1">
+                <div class="icon-inf">
+                    <i class="fas fa-store"></i>
+                </div>
+                <p class="detail-inf">100 Hoàng Hoa Thám, P.12, Q. Tân Bình</p>
+            </div>
+        </div>
+        <div class="inf-2">
+            <div class="chinhsach">
+                <li><a href="#">LIÊN HỆ</a></li>
+                <li><a href="#">CHÍNH SÁCH GIAO HÀNG</a></li>
+                <li><a href="#">CHÍNH SÁCH BẢO MẬT</a></li>
+                <li><a href="#">CHÍNH SÁCH ĐỔI TRẢ</a></li>
+                <li><a href="#">ĐIỀU KHOẢN MUA BÁN</a></li>
+            </div>
+            <div class="dk-bantin">
+                <h4>Đăng kí nhận bản tin</h4>
+                <div class="line-dk">
+                    <input class="first" type="text" placeholder="Nhập số điện thoại của bạn">
+                    <button type="submit" class="last">ĐĂNG KÍ</button>
+                </div>
+            </div>
+        </div>
+        <div class="inf-3">
+            <p class="copyright">Thế Giới SkinFood Copyright © 2013</p>
+        </div>
+    </footer>
+</body>
+</html>
